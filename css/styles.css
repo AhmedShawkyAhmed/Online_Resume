@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  background: rgba(0, 86, 156, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container
+{
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 1000px;
+  background: rgb(26, 27, 24);
+  padding: 30px;
+  margin: 50px;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 5px 60px rgba(0, 0, 0, 0.521);
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(170, 170, 170);
+}
+
+.profileInfo h2{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+.profileInfo h3{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.contactInfo {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.contactInfo a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.education h5
+{
+  color: rgb(73, 173, 255);
+  font-weight: 500;
+}
+.education h4:nth-child(1)
+{
+  color: #fff;
+  font-weight: 500;
+}
+.education h4
+{
+  color: #fff;
+  font-weight: 300;
+}
+.education ul
+{
+  color: #fff;
+}
+.language .percent
+{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+}
+.language .text
+{
+  color: #fff;
+}
+.language .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(73, 173, 255);
+}
+.language ul
+{
+  color: #fff;
+}
+.about
+{
+  margin-bottom: 30px;
+}
+.title2
+{
+  color: rgb(8, 161, 231);
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* border-bottom: 2px solid rgb(170, 170, 170); */
+}
+.about p
+{
+  color: #fff;
+  font-size: 25px;
+}
+.about span
+{
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.about h5
+{
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.about ul
+{
+  padding-left: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+.info
+{
+  padding-bottom: 60px;
+  /* border-bottom: 2px solid rgb(170, 170, 170); */
+}
+.info p
+{
+  color: #fff;
+}
+.info span
+{
+  color: #fff;
+}
+.info ul
+{
+  padding-left: 20px;
+  color: #fff;
+}
+.last
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 2px solid rgb(170, 170, 170);
+  color: #c9c9c9;
+  font-size: 20px;
+}
